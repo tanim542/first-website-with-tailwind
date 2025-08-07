@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>First website using tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+
+<body class="mt-[70px]">
+    <header class="max-w-[1170px] mx-auto">
+        <!-- Navigation bar -->
+        <nav>
+            <div class="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <div class="w-[158px] h-[46px]">
+                <img class="w-full h-auto" src="images/logo2.png" alt="">
+            </div>
+            <div>
+                <ul class="flex flex-col md:flex-row items-center gap-7 dark-3 text-base font-normal">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Cases</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="bg-[#B68C5A] text-white px-7 py-4 w-52 h-16 font-semibold text-lg rounded-lg">Free Consultation</button>
+            </div>
+            </div>
+        </nav>
+        <!-- Banner Section -->
+        <div class="banner bg-[url('images/banner.png')] bg-cover h-auto  mx-auto flex flex-col items-center justify-center text-center rounded-lg px-13 py-6 lg:px-62 lg:py-26 mt-15">
+            <p class="eb-garamond-headline font-extrabold text-3xl lg:text-7xl text-white">We Provide Effective Legal Solutions</p>
+            <p class="text-[#E7E7E7] text-[9px] lg:text-base font-normal mt-2 mb-3 lg:mt-6 lg:mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+            <div class="flex flex-col justify-between items-center lg:space-y-0 space-y-2 lg:flex-row">
+                <input type="text" placeholder="Search for a service" class="bg-white w-50 h-10 lg:w-125 lg:h-16 rounded-lg pl-5 pt-4 pb-4 pr-78 lg:mr-6">
+                <button class="bg-[#B68C5A] text-white w-26 h-10 lg:px-7 lg:py-4 lg:w-52 lg:h-16 font-semibold lg:text-lg  text-sm rounded-lg">Search</button>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-[1170px] mx-auto">
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

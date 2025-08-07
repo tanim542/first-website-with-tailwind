@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.dark-3{
+    color: #707070;
+}
+
+.eb-garamond-headline {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
